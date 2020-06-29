@@ -1,5 +1,5 @@
 
-~page "thing"
+~page "Zach's notes"
 
 Hi, this is my website where I keep some notes.
 
@@ -7,4 +7,6 @@ Here are the pages:
 
 ~ul
 ~href "List of Fit Words" "words": A collection of useful words and definitions.
+
+~href "The Utility of Romans 3:19" "romans319": Commentary on the implications of Romans 3:19.
 ~/ul

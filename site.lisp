@@ -23,6 +23,12 @@
 (define-symbol-macro ul (ul))
 (define-symbol-macro /ul (/ul))
 (define-symbol-macro b (b (read)))
+(define-symbol-macro bquote-attrib
+    (let ((type (read)))
+      (case type
+        (:scripture (begin-quote type (read) (read) (read) (read)))
+        (t (begin-quote type)))))
+(define-symbol-macro endquote (end-quote))
 
 (defun b (word)
   (format nil "<b>~a</b>" word))
@@ -51,6 +57,39 @@
             (subseq (namestring lips-path) 0 (- (length (namestring lips-path)) 5))
             text)))
 
+(defparameter *quote-sources* nil)
+(defparameter *quote-types* nil)
+
+(defun begin-quote (type &optional source chapter verse translation)
+  (lips:reset-paragraph)
+  (cond
+    ((eq type :scripture)
+     (push (list source chapter verse translation) *quote-sources*)
+     (push type *quote-types*)
+     (format t "<div class=\"scripture-block-quote\">")))
+
+  (let ((result (lips:process-stream *standard-input*)))
+    (when (not (eq result 'quote))
+      (error "Unmatched QUOTE tag, got ~a" result))))
+
+(defun end-quote ()
+  (values (let ((source (pop *quote-sources*))
+                (type (pop *quote-types*)))
+            (if source
+                (case type
+                  (:scripture
+                   (format nil "<div class=\"quote-attrib\"><a target=\"_blank\" href=\"https://biblehub.com/~a/~a-~a.htm\">~a ~a:~a</a>, ~a</div></div>"
+                           (substitute #\_ #\Space (string-downcase (car source)))
+                           (cadr source)
+                           (caddr source)
+                           (car source)
+                           (cadr source)
+                           (caddr source)
+                           (cadddr source))))
+                
+                "</div>"))
+          'quote))
+
 (defun start-page (page-title)
   (setf lips:*paragraph-begin* "<p>")
   (setf lips:*paragraph-end* "</p>")
@@ -61,7 +100,7 @@
 <head>
 <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">
 <meta charset=\"UTF-8\">
-<link rel=\"stylesheet\" href=\"site.css\">
+<link rel=\"stylesheet\" href=\"/site.css\">
 <title>~a</title>
 </head>
 <body>
