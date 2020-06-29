@@ -18,3 +18,16 @@ body {
 #homediv {
     float: right;
 }
+
+.scripture-block-quote {
+    padding: .5em 1em .5em 1em;
+    border-left: 3px solid lightgray;
+}
+
+.scripture-block-quote > p:first-child {
+    margin: 0;
+}
+
+.quote-attrib {
+    text-align: right;
+}
