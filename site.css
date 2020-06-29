@@ -1,4 +1,13 @@
 
+@font-face {
+    font-family: garamond;
+    src: url(EBGaramond-VariableFont_wght.ttf);
+}
+
+body {
+    font-family: garamond;
+}
+
 #container {
     margin: 0 auto;
     padding: 1in;
