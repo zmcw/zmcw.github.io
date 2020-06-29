@@ -1,0 +1,10 @@
+
+~page "thing"
+
+Hi, this is my website where I keep some notes.
+
+Here are the pages:
+
+~ul
+~href "List of Fit Words" "words": A list useful words and definitions.
+~/ul

@@ -1,0 +1,11 @@
+
+#container {
+    margin: 0 auto;
+    padding: 1in;
+    max-width: 8in;
+    text-align: justify;
+}
+
+#homediv {
+    float: right;
+}
