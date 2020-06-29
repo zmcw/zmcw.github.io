@@ -10,7 +10,7 @@ body {
 
 #container {
     margin: 0 auto;
-    padding: 1in;
+    padding: 1in 1em 1in 1em;
     max-width: 8in;
     text-align: justify;
 }
