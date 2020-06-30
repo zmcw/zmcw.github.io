@@ -1,21 +1,33 @@
 
 @font-face {
     font-family: garamond;
-    src: url(EBGaramond-VariableFont_wght.ttf);
+    src: url(/EBGaramond-VariableFont_wght.ttf);
 }
 
 body {
     font-family: garamond;
-    margin: 0;
 }
 
 #container {
     margin: 0 auto;
-    padding: 1in 1em 1in 1em;
+    padding: 1in;
     max-width: 8in;
     text-align: justify;
 }
 
 #homediv {
     float: right;
+}
+
+.scripture-block-quote {
+    padding: .5em 1em .5em 1em;
+    border-left: 3px solid lightgray;
+}
+
+.scripture-block-quote > p:first-child {
+    margin: 0;
+}
+
+.quote-attrib {
+    text-align: right;
 }
