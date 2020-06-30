@@ -23,6 +23,7 @@
 (define-symbol-macro ul (ul))
 (define-symbol-macro /ul (/ul))
 (define-symbol-macro b (b (read)))
+(define-symbol-macro i (i (read)))
 (define-symbol-macro bquote-attrib
     (let ((type (read)))
       (case type
@@ -32,6 +33,9 @@
 
 (defun b (word)
   (format nil "<b>~a</b>" word))
+
+(defun i (word)
+  (format nil "<i>~a</i>" word))
 
 (defun ul ()
   (lips:reset-paragraph)
