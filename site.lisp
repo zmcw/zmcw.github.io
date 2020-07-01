@@ -16,9 +16,10 @@
        (when (string= (pathname-name filename) name)
          (return filename))))
 
-(define-symbol-macro article (start-article (read)))
+(define-symbol-macro lq "“")
+(define-symbol-macro article (start-article (read) (read)))
 (define-symbol-macro h1 (header-1 (read)))
-(define-symbol-macro page (start-page (read)))
+(define-symbol-macro page (start-page (read) (read)))
 (define-symbol-macro href (href (read) (read)))
 (define-symbol-macro ul (ul))
 (define-symbol-macro /ul (/ul))
@@ -61,6 +62,9 @@
             (subseq (namestring lips-path) 0 (- (length (namestring lips-path)) 5))
             text)))
 
+(defun banner (text)
+  (format nil "<div class=\"banner\">~a</div>" text))
+
 (defparameter *quote-sources* nil)
 (defparameter *quote-types* nil)
 
@@ -94,7 +98,7 @@
                 "</div>"))
           'quote))
 
-(defun start-page (page-title)
+(defun start-page (type page-title)
   (setf lips:*paragraph-begin* "<p>")
   (setf lips:*paragraph-end* "</p>")
   (lips:reset-paragraph)
@@ -107,21 +111,24 @@
 <link rel=\"stylesheet\" href=\"/site.css\">
 <title>~a</title>
 </head>
-<body>
+<body class=\"~a\">
 <div id=\"container\">
 "
-          page-title))
+          page-title
+          (case type
+            (:draft "draft")
+            (t "article"))))
 
-(defun start-article (page-title)
+(defun start-article (type page-title)
   (lips:reset-paragraph)
   (format nil
           "~a
 <div id=\"homediv\">
 <a href=\"/\">⌂</a>
 </div>
-<h1>~a</h1>
+<h1 class=\"article-title\">~a</h1>
 "
-          (start-page page-title)
+          (start-page type page-title)
           page-title))
 
 (defun html-footer ()

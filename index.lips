@@ -1,7 +1,9 @@
 
-~page "Zach's notes"
+~page t "Readymade"
 
-Hi, this is my website where I keep some notes.
+~(banner "Readymade")
+
+Hi, this is a website where I keep some notes.
 
 Here are the pages:
 
