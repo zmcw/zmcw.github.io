@@ -1,4 +1,16 @@
 
+@media only screen and (min-height: 5in) and (min-width: 5in) {
+    #container {
+        padding: 1in 1em 1in 1em;
+    }
+}
+
+@media only screen and not (min-height: 5in), screen and not (min-width: 5in) {
+    #container {
+        padding: 1em;
+    }
+}
+
 @font-face {
     font-family: garamond;
     src: url(/EBGaramond-VariableFont_wght.ttf);
@@ -9,13 +21,17 @@ body.draft #container:before {
     content: "This text is an unfinished draft.";
 }
 
+p:empty {
+    padding: 0;
+    margin: 0;
+}
+
 body {
     font-family: garamond;
 }
 
 #container {
     margin: 0 auto;
-    padding: 1in 1em 1in 1em;
     max-width: 8in;
     text-align: justify;
 }
