@@ -32,6 +32,9 @@
         (t (begin-quote type)))))
 (define-symbol-macro endquote (end-quote))
 
+(defun cmt (word)
+  (declare (ignore word)))
+
 (defun b (word)
   (format nil "<b>~a</b>" word))
 
