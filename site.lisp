@@ -18,7 +18,6 @@
        (when (string= (pathname-name filename) name)
          (return filename))))
 
-
 (macro page (type title)
   (%!
 "<!DOCTYPE html>
@@ -42,16 +41,49 @@
 (macro banner (text)
   (%! "<div class=\"banner\">~a</div>" text))
 
-(macro ulist ()
-  (%! "<ul>")
+(defun list-body ()
   (loop
      for x = (read-macro-argument)
      while (string/= x ":end")
-     do (%! "<li>~a</li>~%" x))
+     do (%! "<li>~a</li>~%" x)))
+
+(macro --- (x)
+  (declare (ignore x))
+  ($! "&#8288;")
+  ($ "—")
+  ($! "&#8288;"))
+
+(macro ulist ()
+  (%! "<ul>")
+  (list-body)
   (%! "</ul>"))
+
+(macro olist ()
+  (%! "<ol>")
+  (list-body)
+  (%! "</ol>"))
+
+(macro sup (text)
+  ($! "<span class=\"superscript\">")
+  ($ text)
+  ($! "</span>"))
 
 (macro comment (word)
   (declare (ignore word)))
+
+(macro multiverse (book range translation)
+  ($! "<div class=\"scripture-block-quote\">")
+  (loop
+     for verse-or-end = (read-macro-argument)
+     while (string/= verse-or-end ":end")
+     do
+       ($! "<div>")
+       (%! "<span class=\"aligned-superscript\">~a</span>" verse-or-end)
+       ($! (read-macro-argument))
+       ($! "</div>"))
+  (%! "<div class=\"quote-attrib\">")
+  (%! "~a ~a, ~a" book range translation)
+  ($! "</div></div>"))
 
 (macro bverse (book chapter verse translation text)
   ($! "<div class=\"scripture-block-quote\">")
