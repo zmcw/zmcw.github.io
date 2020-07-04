@@ -1,14 +1,13 @@
 
-~page t "Readymade"
+\page{cover}{Readymade}
 
-~(banner "Readymade")
+\banner{Readymade}
 
 Hi, this is a website where I keep some notes.
 
 Here are the pages:
 
-~ul
-~href "List of Fit Words" "words": A collection of useful words and definitions.
-
-~href "The Utility of Romans 3:19" "romans319": Commentary on the implications of Romans 3:19.
-~/ul
+\ulist
+{\href{List of Fit Words}{words}: A collection of useful words and definitions.}
+{\href{The Utility of Romans 3:19}{romans319}: Commentary on the implications of Romans 3:19.}
+{:end}

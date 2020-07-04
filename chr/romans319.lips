@@ -1,21 +1,16 @@
 
-~article :draft "The Surprising Utility of Romans 3:19"
-
+\article{draft}{The Surprising Utility of Romans 3:19}
 
 Word for word, Romans 3:19 is one of the richest veins in the entire
 scripture for the purpose of proving doctrinal arguments, and it
 states with dispositive authority what other scriptures might leave
 open to interpretation. It reads like this:
 
-
-~bquote-attrib :scripture "Romans" 3 19 "NKJV"
-
-Now we know that whatever the law says, it says to those who are under
-the law, that every mouth may be stopped, and all the world may become
-guilty before God.
-
-~endquote
-
+\bverse{Romans}{3}{19}{NKJV}{
+Now we know that whatever the law says, it says to those who are
+under the law, that every mouth may be stopped, and all the world may
+become guilty before God.
+}
 
 In just these few short words, Paul makes no fewer than three strong
 assertions about the nature of our relationship to God and the
@@ -25,19 +20,17 @@ contentions that arise on these subjects. Each one acts as a tool to
 discover deeper truths, and as a guardrail to keep us from erroneous
 understanding. It is worth exploring them in detail.
 
-
 Paul frames the first tool he gives us as being natural, almost
 obvious: "Now we know that whatever the law says, it says to those who
 are under the law..." It's easy to let this one slip by without fully
 grasping the weight of it. The contrapositive is actually so much more
 striking that we'll prefer it over the original formulation, and it is
 this: if whatever the Law says is directed at those who are under
-it, then (𝟙) ~b "the Law does not say anything whatsoever to those who
-are not under it."  This, combined with the statement "you [believers]
+it, then (𝟙) \b{the Law does not say anything whatsoever to those who
+are not under it.} This, combined with the statement "you [believers]
 are not under law but under grace" from a few chapters later in Romans
-6:14 gives us the corollary (𝟙.𝕒) that ~b "the law has nothing
-whatsoever to say to Christians."
-
+6:14 gives us the corollary (𝟙.𝕒) that \b{the law has nothing
+whatsoever to say to Christians.}
 
 This statement is quite controversial in some circles. Martin Luther,
 for example, famously asserted that the Law has three uses: one, as a
@@ -54,15 +47,14 @@ default within its frame of reference, and we have to work hard to
 shake it off.  But surprising though our theorem is, it wasn't
 completely untelegraphed.
 
-
 Let's remember what the Law actually is (and not): the Law is not a
 collection of moral principles like "do not steal," "do not kill,"
-etc. Rather, the law is these, bundled together with a consequence
-for breaking them.  We know this from Romans 10:5, which says, "Moses
+etc. Rather, the law is these, bundled together with a consequence for
+breaking them.  We know this from Romans 10:5, which says, "Moses
 writes this about the righteousness that is by the law: 'The person
 who does these things will live by them.'" In other words, the
-righteousness of the Law is fundamentally of the form "do ~i"X"  and
-live," for some command X (and by implication, "fail to do ~i "X"  and
+righteousness of the Law is fundamentally of the form "do \i{X} and
+live," for some command X (and by implication, "fail to do \i{X} and
 die").  The Law spells out its punishment for us in Ezekiel 18:20,
 "The soul who sins shall die," echoed in Romans 6:23, "The wages of
 sin is death." And it's important to keep this precise definition of
@@ -73,73 +65,69 @@ same can be said about Christ's "Go and sin no more" to the woman
 caught in the act of adultery, and all the rest, so these by
 definition can't be the Law), or that Jesus kept the Law (He didn't;
 the Law is a shadow of Christ, and how can a man "keep" his shadow?
-rather, He ~i "fulfilled"  the Law, being that which the Law was
-modeled from, and much more), or some such thing, and the entire
-doctrine of the New Testament unravels for trying to fit two—Grace and
-Law—inside the sweater meant for one.
-
+rather, He \i{fulfilled} the Law, being that which the Law was modeled
+from, and much more), or some such thing, and the entire doctrine of
+the New Testament unravels for trying to fit two—Grace and Law—inside
+the sweater meant for one.
 
 So with the right definition in mind, it should make sense that the
-Law has nothing to 
-say to Christians, as the very thing that makes the Law a "law" (as opposed
-to a suggestion or recommendation, namely, the penalty of death), was
-already spent on Christ, and is incapable of reaching us now. And the rest
-of the scripture confirms this wonderful—but yes, strange—state of
-affairs. For example, Romans 7:4 reads, "Therefore, my brethren, you
-also have become dead to the law through the body of Christ..."
-Obviously, the law does not speak to the dead—who ever heard of
-putting a dead man on trial? Furthermore, how could that which is not
-of faith (~lq and the law is not of faith," Galatians 3:12) have anything
-to add to us, to whom "whatsoever is not of faith is sin" (Romans
-14:23)? That's worth saying again: whatsoever is not of faith is sin,
-and the Law—remember, "~i "do"  thus and so for righteousness"—is not
-of faith. This ~i"doing"  of the Law is the very opposite of faith, because the
+Law has nothing to say to Christians, as the very thing that makes the
+Law a "law" (as opposed to a suggestion or recommendation, namely, the
+penalty of death), was already spent on Christ, and is incapable of
+reaching us now. And the rest of the scripture confirms this
+wonderful—but yes, strange—state of affairs. For example, Romans 7:4
+reads, "Therefore, my brethren, you also have become dead to the law
+through the body of Christ..."  Obviously, the law does not speak to
+the dead—who ever heard of putting a dead man on trial? Furthermore,
+how could that which is not of faith ("and the law is not of
+faith," Galatians 3:12) have anything to add to us, to whom
+"whatsoever is not of faith is sin" (Romans 14:23)? That's worth
+saying again: whatsoever is not of faith is sin, and the Law—remember,
+"\i{do} thus and so for righteousness"—is not of faith. This
+\i{doing} of the Law is the very opposite of faith, because the
 opposite of faith is fact: "Faith is the evidence of things not seen"
-(Hebrews 11:1). So if you can see it (like you can see me ~i"doing"  the
-law), then it's not "of faith." The righteousness we have in
-Christ, on the other hand, is actually invisible; I still look like a sinner to an
-uninformed observer (c.f. 1 John 2:1, "My little children, I am
-writing these things to you so that you may not sin. But if anyone
-does sin, we have an advocate with the Father, Jesus Christ the
-righteous..."). That's the reason it can even be called "righteousness ~i"by faith."‍"
-
+(Hebrews 11:1). So if you can see it (like you can see me \i{doing}
+the law), then it's not "of faith." The righteousness we have in
+Christ, on the other hand, is actually invisible; I still look like a
+sinner to an uninformed observer (c.f. 1 John 2:1, "My little
+children, I am writing these things to you so that you may not
+sin. But if anyone does sin, we have an advocate with the Father,
+Jesus Christ the righteous..."). That's the reason it can even be
+called "righteousness \i{by faith.}"
 
 Galatians 5:4 says, "Christ is become of no effect unto you, whosoever
 of you are justified by the law; you are fallen from grace," and the
-statement in (𝟙) is a readymade for defying the gravity of the Law. Any
-attempts to reintroduce elements of the Law—which attempts are often disguised
-to sound well-meaning and reasonable to our Law-based sensibilities, e.g. "Well, if so-and-so were ~i"really"  a Christian, then they wouldn't
-have done that," or the perennial favorite, "repent and turn from your
-sins, sister, and God will forgive you"—should be countered flatly with a
-recitation of (𝟙).
-
+statement in (𝟙) is a readymade for defying the gravity of the
+Law. Any attempts to reintroduce elements of the Law—which attempts
+are often disguised to sound well-meaning and reasonable to our
+Law-based sensibilities, e.g. "Well, if so-and-so were \i{really} a
+Christian, then they wouldn't have done that," or the perennial
+favorite, "repent and turn from your sins, sister, and God will
+forgive you"—should be countered flatly with a recitation of (𝟙).
 
 The second tool Romans 3:19 equips us with concerns the purpose of the
 Law: "whatever the law says, it says ... that every mouth may be
 stopped, and all the world may become guilty before God." We knew that
 the Law only speaks to those under the Law, not Christians. But this
 informs us that, even when it's speaking to non-Christians, (𝟚)
-~b"whatever the Law says, it says it to condemn you before God."  In
-other words, the Law has no other purpose than to bring 
-its listeners ~(cmt "listeners? audence?") to muted guilt for their
-sins against it—no excuses, no defenses, just guilty silence. 
+\b{whatever the Law says, it says it to condemn you before God.}  In
+other words, the Law has no other purpose than to bring its listeners
+\comment{listeners? audence?} to muted guilt for their sins against
+it—no excuses, no defenses, just guilty silence.
 
-
-This second axiom contradicts Martin Luther's designation of the Law as a
-"curb" to restrain the evil in the world. But as if that weren't
+This second axiom contradicts Martin Luther's designation of the Law
+as a "curb" to restrain the evil in the world. But as if that weren't
 enough, it turns out that the whole purpose of the Law from the very
-beginning was actually to ~i"make sin abound!"  "Now the law entered
-in, that sin might abound..."—but God —~lq ...where sin abounded,
-grace did more abound" (ibid)!
-
+beginning was actually to \i{make sin abound!}  "Now the law entered
+in, that sin might abound..."—but God —"...where sin abounded,
+grace did more abound" (Romans 5:20)!
 
 The principle itself is
 useful for when people try to use the Law for the wrong thing. For
 example, . 
 
-
-Another enlightening result of this principle is: (𝟚.𝟙) ~b"if what
-you're hearing isn't condemning you, then it isn't the Law."  So when
+Another enlightening result of this principle is: (𝟚.𝟙) \b{if what
+you're hearing isn't condemning you, then it isn't the Law.}  So when
 Jesus, as we mentioned before, told the woman caught in the act of
 adultery, "Neither do I condemn you; go and sin no more" (John 8:11),
 He can't have been delivering the Law, as His words weren't condemning
@@ -150,16 +138,13 @@ deliver the Law, because the Law only condemns. (It's almost like
 Jesus said, "I didn't come into the world to condemn the world," and
 the Law says, "I came into the world to condemn the world!")
 
-
  Furthermore,
 Paul writes in Galatians 3 that "the law was our schoolmaster to bring
 us unto Christ, that we might be justified by faith. But after that
-faith is come, ~i "we are no longer under a schoolmaster"‍"
+faith is come, \i{we are no longer under a schoolmaster"}
 (emph. added). 
 
-
 Who does the law apply to? Everyone.
-
 
 It ranks with the likes of "The just shall live by faith," "the law
 entered that the offense might abound," and "In Christ, neither
