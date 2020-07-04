@@ -41,11 +41,10 @@ body {
 
 .scripture-block-quote {
     padding: .5em 1em .5em 1em;
-    border-left: 3px solid lightgray;
 }
 
-.scripture-block-quote > p:first-child {
-    margin: 0;
+.scripture-block-quote > div:not(:last-child) {
+    padding-bottom: .2em;
 }
 
 .quote-attrib {
@@ -58,4 +57,20 @@ body {
     margin-bottom: 1em;
     text-decoration: underline;
     font-variant: small-caps;
+}
+
+ol, ul {
+    padding-left: 2em;
+}
+
+.aligned-superscript {
+    font-size: 70%;
+    position: absolute;
+    transform: translateX(-100%);
+}
+
+.superscript {
+    position: relative;
+    bottom: 0.4em;
+    font-size: 70%;
 }
