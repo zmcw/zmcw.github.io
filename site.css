@@ -21,11 +21,6 @@ body.draft #container:before {
     content: "This text is an unfinished draft.";
 }
 
-p:empty {
-    padding: 0;
-    margin: 0;
-}
-
 body {
     font-family: garamond;
 }
