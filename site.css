@@ -32,6 +32,7 @@ body {
 }
 
 .article-title {
+    font-size: 2em;
     text-align: left;
 }
 
@@ -40,7 +41,7 @@ body {
 }
 
 .scripture-block-quote {
-    padding: .5em 1em .5em 1em;
+    padding: 0 1em 0 1em;
 }
 
 .scripture-block-quote > div:not(:last-child) {
@@ -70,7 +71,18 @@ ol, ul {
 }
 
 .superscript {
-    position: relative;
-    bottom: 0.4em;
     font-size: 70%;
+}
+
+:target {
+    background-color: #ffeea2;
+}
+
+#footnotes {
+    padding-left: 2em;
+}
+
+.footnote-num {
+    position: absolute;
+    transform: translateX(-100%);
 }
