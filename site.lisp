@@ -18,6 +18,10 @@
        (when (string= (pathname-name filename) name)
          (return filename))))
 
+(defun html-footer ()
+  (format nil "~%</article></body></html>"))
+
+(add-finish-hook #'html-footer)
 (macro page (type title)
   (%!
 "<!DOCTYPE html>
@@ -29,7 +33,7 @@
 <title>~a</title>
 </head>
 <body class=\"~a\">
-<div id=\"container\">
+<article id=\"container\">
 "
           title
           (cond
@@ -64,9 +68,9 @@
   (%! "</ol>"))
 
 (macro sup (text)
-  ($! "<span class=\"superscript\">")
+  ($! "<sup class=\"superscript\">")
   ($ text)
-  ($! "</span>"))
+  ($! "</sup>"))
 
 (macro comment (word)
   (declare (ignore word)))
@@ -78,7 +82,7 @@
      while (string/= verse-or-end ":end")
      do
        ($! "<div>")
-       (%! "<span class=\"aligned-superscript\">~a</span>" verse-or-end)
+       (%! "<sup class=\"aligned-superscript\">~a</sup>" verse-or-end)
        ($! (read-macro-argument))
        ($! "</div>"))
   (%! "<div class=\"quote-attrib\">")
@@ -87,7 +91,8 @@
 
 (macro bverse (book chapter verse translation text)
   ($! "<div class=\"scripture-block-quote\">")
-  ($! text)
+  (%! "<div>~a</div>" text)
+  ;; Why is this div not showing up in firefox reader view?
   (%! "<div class=\"quote-attrib\"><a target=\"_blank\" href=\"https://biblehub.com/~a/~a-~a.htm\">"
       (substitute #\_ #\Space (string-downcase book))
       chapter
@@ -114,6 +119,37 @@
   ($ word)
   ($! "</i>"))
 
+(macro link (text)
+  (%! "<a target=\"_blank\" href=\"~a\">" text)
+  ($ text)
+  ($! "</a>"))
+
+(defv *footnotes* nil)
+
+(macro footnote (text)
+  (push text *footnotes*)
+  (% "<a id=\"reference-~a\" href=\"#footnote-~a\">[~a]</a>"
+     (length *footnotes*)
+     (length *footnotes*)
+     (length *footnotes*)))
+
+(defun print-footnotes ()
+  (when *footnotes*
+    (%! "<div id=\"footnotes-wrapper\">~%")
+    (%! "<h3 class=\"footnote-header\">Footnotes</h3>~%")
+    (%! "<div id=\"footnotes\">")
+    (loop for note in (reverse *footnotes*) for i from 1 to (length *footnotes*)
+       do
+         (%! "<div id=\"footnote-~a\" class=\"footnote\">~%" i)
+         (%! "<span class=\"footnote-num\"><a href=\"#reference-~a\">~a</a>.&nbsp;</span><span class=\"footnote-text\">~a</span>~%"
+             i
+             i
+             note)
+         ($! "</div>"))
+    ($! "</div></div>")))
+
+(add-finish-hook #'print-footnotes)
+
 (macro href (text name)
   (let ((lips-path (lips-file-by-name name)))
     (when (not lips-path)
@@ -132,8 +168,3 @@
 <h1 class=\"article-title\">~a</h1>
 "
           title))
-
-(defun html-footer ()
-  (format nil "~%</div></body></html>"))
-
-(add-finish-hook #'html-footer)
