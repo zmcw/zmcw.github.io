@@ -67,6 +67,10 @@
   (list-body)
   (%! "</ol>"))
 
+(macro emptypara ()
+  ($! "&nbsp;")
+  ($ " " :fake))
+
 (macro sup (text)
   ($! "<sup class=\"superscript\">")
   ($ text)
