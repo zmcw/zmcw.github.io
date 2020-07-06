@@ -79,7 +79,9 @@ ol, ul {
 }
 
 #footnotes {
+    position: relative;
     padding-left: 2em;
+    overflow-x: auto;
 }
 
 .footnote-num {
