@@ -57,6 +57,9 @@ body {
     text-align: center;
     margin-bottom: 1em;
     text-decoration: underline;
+}
+
+.smallcaps {
     font-variant: small-caps;
 }
 
@@ -64,8 +67,11 @@ ol, ul {
     padding-left: 2em;
 }
 
-.aligned-superscript {
-    font-size: 70%;
+.customlist {
+    padding-left: 2em;
+}
+
+.laligned {
     position: absolute;
     transform: translateX(-100%);
 }
