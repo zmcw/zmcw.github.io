@@ -67,6 +67,16 @@
   (list-body)
   (%! "</ol>"))
 
+(macro clist ()
+  (%! "<div class=\"customlist\">")
+  (loop
+     for number = (read-macro-argument)
+     while (string/= number ":end")
+     do (%! "<div><span class=\"laligned\">~a</span>&nbsp;~a</div>~%"
+            number
+            (read-macro-argument)))
+  (%! "</div>"))
+
 (macro emptypara ()
   ($! "&nbsp;")
   ($ " " :fake))
@@ -79,28 +89,37 @@
 (macro comment (word)
   (declare (ignore word)))
 
-(macro multiverse (book range translation)
+(macro sc (text)
+       ($! "<span class=\"smallcaps\">")
+       ($ text)
+       ($! "</span>"))
+
+(macro multiverse (book chapter range translation)
   ($! "<div class=\"scripture-block-quote\">")
   (loop
      for verse-or-end = (read-macro-argument)
      while (string/= verse-or-end ":end")
      do
        ($! "<div>")
-       (%! "<sup class=\"aligned-superscript\">~a</sup>" verse-or-end)
+       (%! "<sup class=\"laligned superscript\">~a</sup>" verse-or-end)
        ($! (read-macro-argument))
        ($! "</div>"))
   (%! "<div class=\"quote-attrib\">")
-  (%! "~a ~a, ~a" book range translation)
+  (%! "<a target=\"_blank\" href=\"~a\">~a ~a:~a</a>, ~a"
+      (make-bverse-url book chapter range translation)
+      book chapter range translation)
   ($! "</div></div>"))
+
+(defun make-bverse-url (book chapter verse translation)
+  (format nil "https://www.biblegateway.com/passage/?search=~a+~a%3A~a&version=~a"
+          book chapter verse translation))
 
 (macro bverse (book chapter verse translation text)
   ($! "<div class=\"scripture-block-quote\">")
   (%! "<div>~a</div>" text)
   ;; Why is this div not showing up in firefox reader view?
-  (%! "<div class=\"quote-attrib\"><a target=\"_blank\" href=\"https://biblehub.com/~a/~a-~a.htm\">"
-      (substitute #\_ #\Space (string-downcase book))
-      chapter
-      verse)
+  (%! "<div class=\"quote-attrib\"><a target=\"_blank\" href=\"~a\">"
+      (make-bverse-url book chapter verse translation))
   (%! "~a ~a:~a</a>, ~a"
      book
      chapter
