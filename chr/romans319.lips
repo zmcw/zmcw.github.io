@@ -1,14 +1,15 @@
 
 \article{draft}{The Surprising Utility of Romans 3:19}
 
-Word for word, Romans 3:19 is one of the most densely packed
+Word for word, \bref{Romans}{3}{19}{NKJV} is one of the most densely packed
 scriptures in the New Testament. Its understated phraseology belies a
-rich seam of axioms which are extremely useful for resolving
-contentions that arise on several fundamental points of Christian
-doctrine. This single sentence from the apostle Paul's largest extant
-written work states with dispositive authority what others from all
-around the New Testament might seem to leave open to
-interpretation. It reads like this:
+rich seam of axioms which are not only generally informative, but also
+specifically useful for resolving certain contentions that commonly
+arise on several fundamental points of Christian doctrine. This single
+sentence from the apostle Paul's largest extant written work states
+with dispositive authority what others from all around the New
+Testament might seem to leave open to interpretation. It reads like
+this:
 
 \bverse{Romans}{3}{19}{NKJV}{
 Now we know that whatever the law says, it says to those who are
@@ -18,7 +19,7 @@ become guilty before God.
 
 In just these few short words, Paul makes no fewer than three strong
 assertions about the nature of our relationship to God and the
-Law. Herein he compactly addresses these questions:
+Law. Herein he compactly addresses these questions, among others:
 
 \olist
 {To whom does the Law speak?}
@@ -26,15 +27,17 @@ Law. Herein he compactly addresses these questions:
 {Why does the Law say what it says?}
 {:end}
 
-This one verse answers these with clarity, brevity, and unequivocality
-to grant us deep insights into Law, Sin, Grace, and the Gospel. Each
-part acts as a tool to discover deeper truths, and as a guardrail to
-keep us from erroneous understanding. It is worth exploring them in
-detail.
+The verse answers these with clarity, brevity, and unequivocality, and
+grants us deep insights into many of the major themes in Christian
+theology including Law, Sin, Grace, and the Gospel. Each part acts not
+as just a truth in itself but as a tool to discover deeper truths; and
+they also function as guardrails to keep us from erroneous
+understanding. As such, it is worth exploring them in detail.
 
 \emptypara
 
-Paul frames the first part of his statement as being natural, almost
+\bref{Romans}{3}{19}{NKJV} can be viewed as a tri-partite logical
+assertion, and Paul frames the first part as being natural, almost
 obvious: "Now we know that \i{whatever the law says}, it says \i{to
 those who are under the law}..." And it does sound almost tautological
 in a way, so it's easy to let this one slip by without fully grasping
@@ -43,141 +46,156 @@ that we'll prefer it over the original formulation, and it is this: if
 whatever the Law says is directed at those who are under it, then (𝟙)
 \b{the Law does not say anything whatsoever to those who are not under
 it.}  This, combined with the claim that "you [believers] are not
-under law but under grace" from a few chapters later in Romans 6:14
-gives us the corollary that (𝟙.𝕒) \b{the Law has nothing whatsoever to
-say to Christians.}
+under law but under grace" from a few chapters later in
+\bref{Romans}{6}{14}{NIV} gives us the corollary that (𝟙.𝕒) \b{the Law
+has nothing whatsoever to say to Christians.}
 
-This statement would be quite controversial in some circles. For
-example, reformed thinkers (and perhaps to a lesser extent, Lutheran
-theologians), hold that the Law has three uses: one, as a "curb" to
-prevent people from doing evil, via the pangs of conscience (also
-called the "civil use"); two, as a "mirror," to show us that we are
-sinners (the "pedagogical use"); and three, as a "guide," to show
-Christians how to live (the "didactic use") \footnote{See
+These two statements would be quite controversial in some circles,
+despite their simplicity. For example, "Reformed" theologians (and to
+a perhaps-lesser extent, Lutheran ones), hold that the Law has three
+uses: one, as a "curb" to prevent people from doing evil, via the
+pangs of conscience (also called the "civil use"); two, as a "mirror,"
+to show us that we are sinners (the "pedagogical use"); and three, as
+a "guide," to show Christians how to live (the "didactic use")
+\footnote{See
 \link{https://en.wikipedia.org/wiki/Law_and_Gospel#Book_of_Concord}
-for a brief overview.}. But this third use of the Law is rebutted by
-(𝟙.𝕒), because it directly contradicts the notion that the Law does
-not speak to Christians. If you're surprised by this, then you're in
-good company, that's exactly the reaction Jesus got everywhere he went
-\footnote{c.f. John 3:9, "How can these things be?" and Luke 4:32,
-"They were astonished at His doctrine."}. (In fact, the best way to
-tell how well you're understanding each of these is to measure how far
-your jaw dropped.)  It's very natural to think that the Law should
-play some continuing role in our lives, because, as we'll discuss
-later, we operate by default within the Law's frame of reference
-(Romans 2:15). We always fall back to the mode of making accusations
-and defenses, keeping an account of the works we have done and we have
-earned by them, and we have to work hard to break free of that
-\footnote{c.f. Hebrews 4:10-11, "For he that is entered into his rest,
-he also has ceased from his own works, as God did from his.
-\sup{11}Let us labor therefore to enter into that rest, lest any man
-fall after the same example of unbelief."}.  But surprising though our
-theorem is, it's not completely unforeshadowed by what information we
-already have.
+for a brief overview.}. But this third use of the Law requires that
+the Law speak to Christians, which is forbidden by (𝟙.𝕒). So the
+three-uses theory is invalidated.
+
+If you're surprised by this, then you're in good company, because
+that's exactly the reaction Jesus got everywhere he went
+\footnote{c.f. \bref{John}{3}{9}{ESV}, "How can these things be?"  and
+\bref{Luke}{4}{32}{KJV}, "They were astonished at His doctrine."}. (In
+fact, the best way to tell how well we're understanding each of these
+is to measure how far our jaw drops.)  It's very natural to think that
+the Law should play some continuing role in our lives, because, as
+we'll discuss later, we operate by default within the Law's frame of
+reference (\bref{Romans}{2}{14-15}{AKJV}). We always fall back to the
+mode of making accusations and defenses, keeping an account of the
+works we have done and what we have earned by them, and we have to
+work hard to break from that to accept grace
+\footnote{c.f. \bref{Hebrews}{4}{10-11}{AKJV}, "For he that is entered
+into his rest, he also has ceased from his own works, as God did from
+his.  \sup{11}Let us labor therefore to enter into that rest, lest any
+man fall after the same example of unbelief."}. But though our theorem
+is surprising, it's not completely unforeshadowed by what information
+we already have.
 
 Let's remember what the Law actually is: the Law is not a collection
 of moral principles like "do not steal," "do not kill," etc. Rather,
 the Law is these, bundled together with a consequence for breaking
-them.  We know this from Romans 10:5, which says, "Moses writes this
-about the righteousness that is by the law: 'The person who does these
-things will live by them.'" In other words, the righteousness of the
-Law is fundamentally of the form "do \i{X} and live," for some command
-X (and by implication, "fail to do \i{X} and die").  The Law spells
-out its punishment in Ezekiel 18:20, "The soul who sins shall die,"
-echoed in Romans 6:23, "The wages of sin is death." This if-then
+them.  We know this from \bref{Romans}{10}{5}{NIV}, which says, "Moses
+writes this about the righteousness that is by the law: 'The person
+who does these things will live by them.'" In other words, the
+righteousness of the Law is fundamentally of the form "do \i{X} and
+live," for some command X (and by implication, "fail to do \i{X} and
+die").  The Law spells out its punishment in
+\bref{Ezekiel}{18}{20}{ESV}, "The soul who sins shall die," echoed in
+\bref{Romans}{6}{23}{KJV}, "The wages of sin is death." This if-then
 structure is essential to the nature of any law, not just the
 spiritual one. Even the speed limit is not a law just because it says
 "Don't drive over sixty." It's a law because it says, "\i{If} you
-drive over sixty, \i{then} you will get a fine." Without a consequent,
-what you have is a suggestion or recommendation or something, but not
-a law. And it's important to keep this precise definition in mind,
-because otherwise we end up thinking things like the Law is repeated
-in the New Testament \footnote{It's not; Ephesians 4:28's "Let him who
-stole steal no more" lacks the Law's consequent "or die," and the same
-can be said about Christ's "Go and sin no more" to the woman caught in
-the act of adultery, and all the rest, so these by definition can't be
-the Law.}, or that Jesus kept the Law \footnote{He didn't; the Law is
-a shadow of Christ, and how can a man "keep" his shadow? The subject
-is a bit too large to address here, but rather than either keeping or
-breaking the Law, Christ \i{fulfilled} the Law, being that which the
-Law was modeled from (and much more).}, or some such thing, and the
-entire system of doctrine of the New Testament degenerates into
-incoherence.
+drive over sixty, \i{then} you will get a fine."  Without a
+consequent, what you have is a suggestion or recommendation or
+something, but not a law. And it's important to keep this precise
+definition in mind, because otherwise we end up thinking things like
+"the Law is repeated in the New Testament" \footnote{It's not;
+\bref{Ephesians}{4}{28}{NKJV}'s "Let him who stole steal no more"
+lacks the Law's consequent "or die," and the same can be said about
+Christ's "Go and sin no more" to the woman caught in the act of
+adultery, and all the rest, so these by definition can't be the Law.},
+or "Jesus kept the Law" \footnote{He didn't; the Law is a shadow of
+Christ (\bref{Hebrews}{10}{1}{NIV}), and how can a man "keep" his
+shadow? The subject is a bit too large to address here, but rather
+than either keeping or breaking the Law, Christ \i{fulfilled} the Law
+(see \bref{Matthew}{5}{17}{NIV}, \bref{Romans}{10}{4}{ESV}),
+being that which the Law was modeled from (and much more).}, or some
+such thing, and the entire system of doctrine of the New Testament
+collapses.
 
 So with the right definition in mind, it should make sense that the
 Law has nothing to say to Christians, as the very thing that makes the
 Law a "law," namely the penalty of death, was already spent on Christ,
 is incapable of being applied to us now.  And the rest of the
 scripture confirms this wonderful\---{}but yes, strange\---{}state of
-affairs. Paul writes, for example, "Therefore, my brethren, you also
-have become dead to the law through the body of Christ [...]
-\sup{6}Now we are released from the law, having died to that which
-held us captive, so that we serve in the new way of the Spirit and not
-in the old way of the written code" (Romans 7:4, 6).  Obviously, the
-Law does not speak to the dead; the dead are no longer under the Law's
-\i{juris-diction,} which word comes from two Latin components
-literally meaning "law-speak."  Who ever heard of putting a dead man
-on trial?  Furthermore, how could that which is not of faith ("and the
-law is not of faith," Galatians 3:12) have anything to add to us, to
-whom "whatsoever is not of faith is sin" (Romans 14:23)? That's worth
-saying again: whatsoever is not of faith is sin, and the
-Law\---{}remember, "\i{do} thus and so for righteousness"\---{}is not
-of faith. This \i{doing} of the Law is the very opposite of faith,
-because the opposite of faith is fact: "Faith is the evidence of
-things not seen" (Hebrews 11:1). So if you can see it (like you can
-see me \i{doing} the Law), then it's not "of faith."  The
+affairs. Paul writes, for example, "Likewise, my brothers, you also
+have died to the law through the body of Christ [...] \sup{6}[and] now
+we are released from the law, having died to that which held us
+captive, so that we serve in the new way of the Spirit and not in the
+old way of the written code" (\bref{Romans}{7}{4-6}{NKJV}).
+Obviously, the Law does not speak to the dead; the dead are no longer
+under the Law's \i{juris-diction,} which word comes from two Latin
+components literally meaning "law-speak."  Who ever heard of putting a
+dead man on trial?  Furthermore, how could that which is not of faith
+("and the law is not of faith," \bref{Galatians}{3}{12}{ESV}) have
+anything to add to us, to whom "whatsoever is not of faith is sin"
+(\bref{Romans}{14}{23}{KJV})?  That's worth saying again: whatsoever
+is not of faith is sin, and the Law\---{}remember, "\i{do} thus and so
+for righteousness"\---{}is not of faith. This \i{doing} of the Law is
+the very opposite of faith, because the opposite of faith is fact:
+"Faith is the substance of things hoped for, the evidence of things
+not seen" (\bref{Hebrews}{11}{1}{NKJV}). So if you can see it (like
+you can see me \i{doing} the Law), then it's not "of faith."  The
 righteousness we have in Christ, on the other hand, is actually
 invisible because it's in the future; for now, I still look like a
-sinner to an uninformed observer \footnote{c.f. the comforting words in 1 John
-2:1, "My little children, I am writing these things to you so that you
-may not sin. But if anyone does sin, we have an advocate with the
-Father, Jesus Christ the righteous..."}. Yet God calls those things
-which are not as though they were (Romans 4:17), and bids me do the
+sinner to an uninformed observer \footnote{c.f. the comforting words
+in \bref{1 John}{2}{1}{ESV}, "My little children, I am writing these
+things to you so that you may not sin. But if anyone does sin, we have
+an advocate with the Father, Jesus Christ the righteous..."}. Paul
+says that we "eagerly await by faith the righteousness for which we
+hope" (\bref{Galatians}{5}{5}{NIV}). And if we hope for it, then we
+certainly don't have it already, because "hope that is seen is no hope
+at all. Who hopes for what they already have?"
+(\bref{Romans}{8}{24}{NIV}). Yet God calls those things which are not
+as though they were (\bref{Romans}{4}{17}{NIV}), and bids me do the
 same, right in the middle of my squalor. It is for this reason that I
 can say, "I am crucified with Christ: nevertheless I live; yet not I,
 but Christ lives in me: and the life which I now live in the flesh I
 live by the faith of the Son of God, who loved me, and gave himself
-for me."  That's the reason it can even be called "righteousness \i{by
-faith.}"
+for me" \bref{Galatians}{2}{20}{AKJV}.
 
-Galatians 5:4 says, "Christ is become of no effect unto you, whosoever
-of you are justified by the law; you are fallen from grace," and the
-statement in (𝟙) is a readymade for defying the gravity of the
-Law. Any attempts to reintroduce elements of the Law\---{}which attempts
-are often disguised to sound well-meaning and reasonable to our
-Law-based sensibilities, e.g. "Well, if so-and-so were \i{really} a
-Christian, then they wouldn't have done that," or the perennial
-favorite, "repent and turn from your sins, sister, and God will
-forgive you"\---{}should be countered flatly with a recitation of (𝟙).
+\bref{Galatians}{5}{4}{KJV} says, "Christ is become of no effect unto
+you, whosoever of you are justified by the law; you are fallen from
+grace," and the statement in (𝟙) is a readymade for defying the
+gravity of the Law. Any attempts to reintroduce elements of the
+Law\---{}which attempts are often disguised to sound well-meaning and
+reasonable to our Law-based sensibilities, e.g. "Well, if so-and-so
+were \i{really} a Christian, then they wouldn't have done that," or
+the perennial favorite, "repent and \i{turn} from your sins, sister,
+and God will forgive you"\---{}should be countered flatly with a
+recitation of (𝟙).
 
 \emptypara
 
-The second tool Romans 3:19 equips us with concerns the purpose of the
-Law: "whatever the law says, it says ... that every mouth may be
-\i{stopped}, and all the world may become \i{guilty} before God." We
-already learned that the Law only speaks to those under the Law, not
-to Christians. But this part informs us that, even when it's speaking
-to non-Christians, (𝟚) \b{the Law says what it says it to condemn you
-before God.} In other words, the Law's purpose is to bring its
-audience to muted guilt for their sins against it. But, critically,
-Paul uses the words "\i{whatever} the law says." So, condemnation is
-not just \i{one} of several purposes of the Law, it is the Law's
-\i{one and only purpose.} This leads us to state that (𝟚.𝕒) \b{the Law
-has no other purpose than to condemn you.} It never speaks to you to
-tell you that you are correct or righteous, because you are never
-correct or righteous; nor does it speak to you to convince you to
-change, because you can never change. It hears no excuses, it brooks
-no defenses, it gives no second chances, it accepts only guilty
-silence.
+The second tool \bref{Romans}{3}{19}{NKJV} equips us with concerns the
+purpose of the Law: "whatever the law says, it says ... that every
+mouth may be \i{stopped}, and all the world may become \i{guilty}
+before God." We already learned that the Law only speaks to those
+under the Law, not to Christians. But this part informs us that, even
+when it's speaking to non-Christians, (𝟚) \b{the Law says what it says
+it to condemn you before God.} In other words, the Law's purpose is to
+bring its audience to muted guilt for their sins against it. But,
+critically, Paul uses the words "\i{whatever} the law says." This
+means that condemnation is not just one of several purposes of the
+Law, but rather it is the Law's one and only purpose. This leads us to
+state that (𝟚.𝕒) \b{the Law has no other purpose than to condemn you.}
+It never speaks to you to tell you that you are correct or righteous,
+because you are never correct or righteous; nor does it speak to you
+to convince you to change, because you can never change. It hears no
+excuses, it brooks no defenses, it gives no second chances, it accepts
+only guilty silence.
 
 This second axiom contradicts the designation of the Law as a "curb"
-to restrain the evil in the world. But as if that weren't enough, it
+to restrain the evil in the world. This in itself is rather bizarre;
+doesn't God want me to be good? But as if that weren't enough, it
 turns out that the whole purpose of the Law from the very beginning
 was actually to make sin abound! "Now the law entered in, that sin
-might abound..." (Romans 5:20, first part). Far from being a bane to
-evil, the Law is actually the strength of sin! "The sting of death is
-sin, and the strength of sin is the law" (1 Corinthians 15:56). Paul
-describes the dire state of affairs in Romans 7:
+might abound..."  (\bref{Romans}{5}{20}{DRA}, first part). Far from
+being a bane to evil, the Law is actually the strength of sin!  "The
+sting of death is sin, and the strength of sin is the law" (\bref{1
+Corinthians}{15}{56}{NKJV}). Paul describes the dire state of affairs
+in Romans 7:
 
 \multiverse{Romans}{7}{7-11}{ESV}
 {7}
@@ -198,49 +216,59 @@ came, sin came alive and I died.}
 and through it killed me.}
 {:end}
 
-The Law is not your friend: "for the law works wrath" (Romans
-4:15). Someone might say that the Law doesn't actually create the sin,
-it just shows you what's already there. And that's where I agree with
-the Lutheran analysis. The Law does make a superb mirror to show you
-how wretched you are: "for by the Law is the knowledge of sin" (Romans
-3:20). The mirror doesn't create the dirt you see on your face, of
-course. But this doesn't change the fact that the Law's sole and
-simple purpose is to indict and convict you for the capital offense of
-being a sinner. Any restraint from evil this produces in you is an
-accident, and insofar as it fosters any sense of accomplishment or
-righteousness, it is actually contrary to the Law's stated purpose: to
-crush all hope of keeping it, so that you perceive the reality of your
-situation, and, possibly, start searching for righteousness outside of
-yourself; to finally wring out of you, after all your best attempts
-have failed, one last cry, one last desperate gasp for air: "O
-wretched man that I am! who shall deliver me from the body of this
-death?" (Romans 7:24). Dante wrote that above the gates of Hell the
-words are inscribed, \sc{All hope abandon, ye who enter here.} But these
-words are perhaps just as appropriate for the entrance to the temple
-of the Law.
+So the answer to the question "Doesn't God want me to be good?" is
+void because the question itself is incoherent. "Good" is a status
+lost on the first signs of evil manifesting in you. Nothing can be
+done to restore it, and attempting to do so only magnifies how far
+short you have fallen of being perfect. The Law is this magnifier. Its
+sole and simple purpose is to indict and convict you for the capital
+offense of being a sinner. Its only goal is to crush all hope of
+keeping it, so that you perceive the reality of your situation, and,
+possibly, start searching for righteousness outside of yourself; to
+finally wring out of you, after all your best attempts have failed,
+one last cry, one last desperate gasp for air: "O wretched man that I
+am! who shall deliver me from the body of this death?"
+(\bref{Romans}{7}{24}{NKJV}).
 
 But in a strange and wonderful twist, God transformed what would have
 been our sure damnation into an integral part of the mechanism for our
-salvation: "...where sin abounded, grace did more abound" (Romans
-5:20, second part)! So the sequence is this: where the Law is strong,
-sin abounds. But where sin abounds, grace superabounds. And where
-grace superabounds, love abounds; for who is forgiven much loves much
-(Luke 7:47). This journey from Sin to Law to Grace to Love is the road
-that every Christian takes to Christ. Look at Paul: Pharisee of
-Pharisees, of the tribe of Benjamin, circumcised the eighth day,
-zealous persecutor of the Church, defender of the Law. But the harder
-he worked to keep the Law, the more material Sin had to use against
-him. This ended up compelling him to seek Grace, and he found it in
-Christ. For this critical role it plays in our salvation, Paul gave
-the Law a new name in Galatians 3:24-25: "the law was our schoolmaster
-to bring us unto Christ, that we might be justified by faith." Then he
-adds, "But after that faith is come, \i{we are no longer under a
-schoolmaster"} (emph. added). When it comes to the Law, our only hope
-is to die, so that we can be raised with Christ.
+salvation: "...where sin abounded, grace did more abound"
+(\bref{Romans}{5}{20}{DRA}, second part)! So the sequence is this:
+where the Law is strong, sin abounds. But where sin abounds, grace
+superabounds. And where grace superabounds, love abounds; for who is
+forgiven much loves much, and who is forgiven little loves little
+(\bref{Luke}{7}{47}{ESV}). This journey from Sin to Law to Grace to
+Love is the road that every Christian takes to Christ. Look at Paul:
+Pharisee of Pharisees, of the tribe of Benjamin, circumcised the
+eighth day, zealous persecutor of the Church, defender of the Law. But
+the harder he worked to keep the Law, the more material Sin had to use
+against him. This ended up compelling him to seek grace, and he found
+it in Christ. For this critical role it plays in our salvation, Paul
+gave the Law a new name in \bref{Galatians}{3}{24-25}{KJV}: "the law
+was our schoolmaster to bring us unto Christ, that we might be
+justified by faith." Then he adds, "But after that faith is come,
+\i{we are no longer under a schoolmaster"} (emph. added). When it
+comes to the Law, our only hope is to die, so that we can be raised
+with Christ.
+
+Someone might say that the Law doesn't actually create the sin, it
+just shows you what's already there. And that's where I agree with the
+Lutheran analysis. The Law does make a superb mirror to show you how
+wretched you are: "for by the Law is the knowledge of sin"
+(\bref{Romans}{3}{20}{NKJV}). The mirror doesn't create the dirt you
+see on your face, of course. But this doesn't change the fact that the
+mirror has only one function. Any restraint from evil this produces in
+you is an accident, and insofar as it fosters any sense of
+accomplishment or righteousness, it is actually contrary to the Law's
+stated purpose. The Law is not your friend: "for the law works wrath"
+(\bref{Romans}{4}{15}{AKJV}). Dante wrote that above the gates of Hell
+the words are inscribed, \sc{All hope abandon, ye who enter here.} But
+these words are perhaps just as appropriate for the entrance to the
+temple of the Law.
 
 (𝟚) is useful any time people try to use the Law for the wrong
 thing. For example, some people think that the Ten Commandments should
-be used as a political device, to guide lawmakers or to stand watch
+be used as a political device, to guide lawmakers and to stand watch
 over our courthouses and state capitol buildings (see
 \footnote{\link{https://en.wikipedia.org/wiki/Ten_Commandments_Monument_(Oklahoma_City)}},
 \footnote{\link{https://bjconline.org/arkansas-ten-commandments-monument-challenged-as-unconstitutional-052418/}},
@@ -253,18 +281,18 @@ Another enlightening result, supplied by the application of \i{modus
 tollens} to (𝟚), is that (𝟚.𝕓) \b{if what you're hearing isn't
 condemning you, then it isn't the Law.}  So when Jesus told the woman
 caught in the act of adultery, "Neither do I condemn you; go and sin
-no more" (John 8:11), He can't have been teaching the Law, as His
-words weren't condemning her. Similarly, when the scripture says, "For
-God did not send His Son into the world to condemn the world, but that
-the world through Him might be saved" (John 3:17), it tells us that
-Jesus didn't come to deliver the Law, because the Law only
-condemns. (It's almost like Jesus said, "I didn't come into the world
-to condemn the world," and the Law says, "I came into the world to
-condemn the world!")
+no more" (\bref{John}{8}{11}{NKJV}), He can't have been teaching the
+Law, as His words weren't condemning her. Similarly, when the
+scripture says, "For God did not send His Son into the world to
+condemn the world, but that the world through Him might be saved"
+(\bref{John}{3}{17}{NKJV}), it tells us that Jesus didn't come to
+deliver the Law, because the Law only condemns. (It's almost like
+Jesus said, "I didn't come into the world to condemn the world," and
+the Law says, "I came into the world to condemn the world!")
 
 \emptypara
 
-The third tool we find in Romans 3:19 is a bit more niche, but no less
+The third tool we find in \bref{Romans}{3}{19}{NKJV} is a bit more niche, but no less
 powerful than the others. Principle (𝟙) states that the Law speaks
 only to those under it. But, we might ask, who is under it? The verse
 reads, "whatever the law says, it says ... that \i{every} mouth may be
@@ -281,32 +309,34 @@ of doing so, that humanity lives by default in a state of "total
 depravity," unable to even desire salvation until we are individually
 selected by God and receive the desire to believe from Him. But I
 think what they miss is that, while we are indeed depraved, we also
-have the work of the Law written on our hearts. Romans 2:14-15 says,
-"For when the Gentiles, which have not the law, do by nature the
-things contained in the law, these, having not the law, are a law to
-themselves: \sup{15}Which show the work of the law written in their
-hearts, their conscience also bearing witness, and their thoughts the
-mean while accusing or else excusing one another." In other words,
-even unsaved non-Jews, who weren't directly given the Ten Commandments
-by God like the Jews, still know right from wrong. They and we, both
-Jew and non-, have the requirements of the Law written on the heart,
-if not on tablets of stone; and we all demonstrate this by making
-moral accusations (usually of others) and excuses (usually for
-ourselves). Not everyone has the exact same laws, not everyone's
-conscience pricks them for the same things. They differ across
-countries, cultures, religions, and even times. But everyone has the
-\i{work} of the Law, that essential "Do \i{X} or else, don't do \i{Y}
-or else."  The contents don't matter; it's the form that's the
-same. We always end up accused, one way or another.
+have the work of the Law written on our
+hearts. \bref{Romans}{2}{14-15}{AKJV} says, "For when the Gentiles,
+which have not the law, do by nature the things contained in the law,
+these, having not the law, are a law to themselves: \sup{15}Which show
+the work of the law written in their hearts, their conscience also
+bearing witness, and their thoughts the meanwhile accusing or else
+excusing one another." In other words, even unsaved non-Jews, who
+weren't directly given the Ten Commandments by God like the Jews,
+still know right from wrong. They and we, both Jew and non-, have the
+requirements of the Law written on the heart, if not on tablets of
+stone; and we all demonstrate this by making moral accusations
+(usually of others) and excuses (usually for ourselves). Not everyone
+has the exact same laws, not everyone's conscience pricks them for the
+same things. They differ across countries, cultures, religions, and
+even periods of time. But everyone has the \i{work} of the Law, that
+essential "Do \i{X} or else, don't do \i{Y} or else."  The contents
+don't matter; it's the form that's the same. We always end up accused,
+one way or another.
 
 So the Law is actually the bridge between us, who are carnal, and God,
 who is spiritual. Despite the facts that "there is none righteous, no,
-not one" (Romans 3:10), and that, "in my flesh there dwells no good
-thing" (7:18), we still have this piece stuck inside us\---{}"written
-on our hearts"\---{}which is itself spiritual: "We know that the law
-is spiritual; but I am unspiritual, sold as a slave to sin"
-(7:14). This piece acts as the "sensor" that attunes us to the offer
-of the Gospel. It's how we feel guilt, and how we even know we need a
+not one" (\bref{Romans}{3}{10}{NKJV}), and that, "in my flesh there
+dwells no good thing" (\bref{Romans}{7}{18}{NKJV}), we still have this
+piece stuck inside us\---{}"written on our hearts"\---{}which is
+itself spiritual: "We know that the law is spiritual; but I am
+unspiritual, sold as a slave to sin" (\bref{Romans}{7}{14}{NIV}). This
+piece acts as the "sensor" that attunes us to the offer of the
+Gospel. It's how we feel guilt, and how we even know we need a
 savior. And according to (𝟛), that's built in to everyone, no special
 selection from God required. Some people respond to the accusation of
 the Law by pointing out all the good they have done on the contrary,
@@ -319,14 +349,15 @@ prepare people's hearts to hear just this message. We just need to
 step back and the schoolmaster do its work \footnote{To avoid
 confusion, I'd like to recognize that the schoolmaster does its work
 without any help from us; we are not to be preachers of the Law to the
-unsaved. See 2 Corinthians 3:6: "[God] has made us competent as
-ministers of a new covenant\---{}not of the letter [written on tablets
-of stone] but of the Spirit; for the letter kills, but the Spirit
-gives life."}.
+unsaved. See \bref{2 Corinthians}{3}{6}{NIV}: "[God] has made us
+competent as ministers of a new covenant\---{}not of the letter
+[written on tablets of stone] but of the Spirit; for the letter kills,
+but the Spirit gives life."}.
 
 \emptypara
 
-In conclusion, here are the statements we've gleaned from Romans 3:19:
+In conclusion, here are the statements we've been able to glean with
+help from \bref{Romans}{3}{19}{NKJV}:
 
 \clist
 {𝟙)}{The Law does not say anything whatsoever to those who are not
@@ -340,13 +371,12 @@ Law.}
 {:end}
 
 As I've hoped to show, the verse is an essential scripture in anyone's
-repertoire. It's nearly unparalleled in information density, and it
+repertoire. It tells us not only whom the law speaks to, but whom it
+doesn't speak to; not only what the law says, but what it doesn't
+say. In sheer information density it's nearly unparalleled, and it
 sits at a busy intersection between so many of the strange and alien
 ideas we find in the scriptures which seem so foreign to our
 minds. Although it keeps a low profile, on the scale of usefulness it
 ranks in with the likes of "God justifies the ungodly," "I rejoice in
 my infirmities," and "Faith works by love," if not "The just shall
-live by faith." And I don't pretend that by this discussion I have
-even begun to exhaust what this verse has to offer. I am certain that
-there is more insight to be had from these few words in Romans, and I
-look forward to hearing what others are led to discover!
+live by faith." These are all certainly words to keep close at hand.

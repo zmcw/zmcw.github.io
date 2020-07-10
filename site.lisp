@@ -1,7 +1,12 @@
 
 (setf lips:*use-smart-quotes* t)
+
+(defparameter *last-bref-book* nil)
+
 (setf lips:*paragraph-begin* "<p>")
-(setf lips:*paragraph-end* "</p>")
+(setf lips:*paragraph-end* (lambda ()
+                             (setf *last-bref-book* nil)
+                             (format t "</p>")))
 
 (defparameter *lips-files* nil)
 
@@ -113,6 +118,15 @@
 (defun make-bverse-url (book chapter verse translation)
   (format nil "https://www.biblegateway.com/passage/?search=~a+~a%3A~a&version=~a"
           book chapter verse translation))
+
+(macro bref (book chapter verse translation)
+  (%! "<a target=\"_blank\" href=\"~a\">"
+      (make-bverse-url book chapter verse translation))
+  (if (and *last-bref-book* (string= *last-bref-book* book))
+      (% "~a:~a" chapter verse)
+      (% "~a ~a:~a" book chapter verse))
+  (setf *last-bref-book* book)
+  ($! "</a>"))
 
 (macro bverse (book chapter verse translation text)
   ($! "<div class=\"scripture-block-quote\">")
