@@ -77,7 +77,7 @@
   (loop
      for number = (read-macro-argument)
      while (string/= number ":end")
-     do (%! "<div><span class=\"laligned\">~a</span>&nbsp;~a</div>~%"
+     do (%! "<div><span class=\"laligned\">~a&nbsp;</span>~a</div>~%"
             number
             (read-macro-argument)))
   (%! "</div>"))
@@ -116,17 +116,25 @@
   ($! "</div></div>"))
 
 (defun make-bverse-url (book chapter verse translation)
-  (format nil "https://www.biblegateway.com/passage/?search=~a+~a%3A~a&version=~a"
-          book chapter verse translation))
+  (if (string= "kjva" (string-downcase translation))
+      (format nil "https://studybible.info/AKJV/~a ~a:~a" book chapter verse)
+      (format nil "https://www.biblegateway.com/passage/?search=~a+~a%3A~a&version=~a"
+              book chapter verse translation)))
+
+(defparameter *bref-no-abbreviation* nil)
 
 (macro bref (book chapter verse translation)
   (%! "<a target=\"_blank\" href=\"~a\">"
       (make-bverse-url book chapter verse translation))
-  (if (and *last-bref-book* (string= *last-bref-book* book))
+  (if (and (not *bref-no-abbreviation*) *last-bref-book* (string= *last-bref-book* book))
       (% "~a:~a" chapter verse)
       (% "~a ~a:~a" book chapter verse))
   (setf *last-bref-book* book)
   ($! "</a>"))
+
+(macro lbref (book chapter verse translation)
+  (let ((*bref-no-abbreviation* t))
+    ($bref book chapter verse translation)))
 
 (macro bverse (book chapter verse translation text)
   ($! "<div class=\"scripture-block-quote\">")
