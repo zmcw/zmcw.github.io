@@ -94,3 +94,7 @@ ol, ul {
     position: absolute;
     transform: translateX(-100%);
 }
+
+h1 {
+    font-weight: normal;
+}
