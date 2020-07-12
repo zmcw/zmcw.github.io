@@ -32,7 +32,7 @@ body {
 }
 
 .article-title {
-    font-size: 2em;
+    font-size: 2.2em;
     text-align: left;
 }
 
@@ -95,6 +95,11 @@ ol, ul {
     transform: translateX(-100%);
 }
 
-h1 {
+h1, h2, h3 {
     font-weight: normal;
+}
+
+.poemsong {
+    padding: 0 1em 0 2em;
+    text-indent: -1em;
 }
