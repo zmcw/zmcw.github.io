@@ -149,6 +149,17 @@
      translation)
   ($! "</div></div>"))
 
+(macro poemsong ()
+  ($! "<div class=\"poemsong\">")
+  (loop
+     for x = (read-macro-argument)
+     while (string/= x ":end")
+     do (%! "<div class=\"poemsong-line\">~a</div>~%"
+            (if (= (length x) 0)
+                "&nbsp;"
+                x)))
+  ($! "</div>"))
+
 (macro header (num text)
   (%! "<h~a>" num)
   ($ text)
@@ -166,6 +177,11 @@
 
 (macro link (text)
   (%! "<a target=\"_blank\" href=\"~a\">" text)
+  ($ text)
+  ($! "</a>"))
+
+(macro hlink (text link)
+  (%! "<a target=\"_blank\" href=\"~a\">" link)
   ($ text)
   ($! "</a>"))
 
