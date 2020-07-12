@@ -11,6 +11,7 @@ Hi, this is a website where I keep some notes.
 {\href{The Surprising Usefulness of Romans 3:19}{romans319}: Commentary on the implications of Romans 3:19.}
 {:end}
 
+\comment{
 \header{2}{Listicles}
 
 As much as I hate the word listicle, it's what they are.
@@ -19,3 +20,4 @@ As much as I hate the word listicle, it's what they are.
 {\href{Poetry & Songs}{poetry}: A few beautiful unrelated songs and poems I want to remember.}
 {\href{Word List}{words}: A collection of satisfying words and definitions.}
 {:end}
+}
