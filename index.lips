@@ -7,17 +7,23 @@ Hi, this is a website where I keep some notes.
 
 \header{2}{Essays}
 
+These are some longer essays I have written.
+
 \ulist
 {\href{The Surprising Usefulness of Romans 3:19}{romans319}: Commentary on the implications of Romans 3:19.}
 {:end}
 
-\comment{
+\header{2}{Commentaries}
+
+\ulist
+{\href{Passages from Isaiah}{isaiah}: A collection of verses from Isaiah about Christ.}
+{:end}
+
 \header{2}{Listicles}
 
 As much as I hate the word listicle, it's what they are.
 
 \ulist
-{\href{Poetry & Songs}{poetry}: A few beautiful unrelated songs and poems I want to remember.}
+{\href{Poetry & Songs}{poetry}: A few beautiful unrelated songs and poems (which I didn't write) that I want to remember.}
 {\href{Word List}{words}: A collection of satisfying words and definitions.}
 {:end}
-}
