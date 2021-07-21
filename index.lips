@@ -19,6 +19,10 @@ These are some longer essays I have written.
 {\href{Passages from Isaiah}{isaiah}: A collection of verses from Isaiah about Christ.}
 {:end}
 
+\header{2}{Blog}
+
+\href{Here is a link to some short-form blog entries}{blog}
+
 \header{2}{Listicles}
 
 As much as I hate the word listicle, it's what they are.

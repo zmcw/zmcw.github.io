@@ -23,6 +23,9 @@
        (when (string= (pathname-name filename) name)
          (return filename))))
 
+(defun pwarn (str)
+  (format *error-output* "*** Warning: ~a~%" str))
+
 (defun html-footer ()
   (format nil "~%</article></body></html>"))
 
@@ -45,6 +48,8 @@
             ((string= type "draft")
              "draft")
             (t
+             (when (string/= type "article")
+               (pwarn (format nil "Unrecognized article type '~a', using 'article'" type)))
              "article"))))
 
 (macro banner (text)
@@ -95,9 +100,9 @@
   (declare (ignore word)))
 
 (macro sc (text)
-       ($! "<span class=\"smallcaps\">")
-       ($ text)
-       ($! "</span>"))
+  ($! "<span class=\"smallcaps\">")
+  ($ text)
+  ($! "</span>"))
 
 (macro multiverse (book chapter range translation)
   ($! "<div class=\"scripture-block-quote\">")
@@ -229,3 +234,22 @@
 <h1 class=\"article-title\">~a</h1>
 "
           title))
+
+(defun sanitize-link (text)
+  (remove-if-not (lambda (c)
+                   (or
+                    (lower-case-p c)
+                    (upper-case-p c)
+                    (digit-char-p c)
+                    (char= c #\-)
+                    (char= c #\_)))
+                 (substitute #\- #\Space (string-downcase text))))
+
+(macro anchor (text)
+  (let ((sanitized (sanitize-link text)))
+    (%! "<span id=\"~a\"><a href=\"#~a\">" sanitized sanitized)
+    ($ text)
+    ($ "</a><span>")))
+
+(macro img (href alt-text)
+  (%! "<img src=\"/img/~a\" alt=\"~a\"></img>" href alt-text))
