@@ -129,7 +129,7 @@
 (defparameter *bref-no-abbreviation* nil)
 
 (macro bref (book chapter verse translation)
-  (%! "<a target=\"_blank\" href=\"~a\">"
+  (%! "<a class=\"bref\" target=\"_blank\" href=\"~a\">"
       (make-bverse-url book chapter verse translation))
   (if (and (not *bref-no-abbreviation*) *last-bref-book* (string= *last-bref-book* book))
       (% "~a:~a" chapter verse)
