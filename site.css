@@ -1,13 +1,11 @@
 
-@media only screen and (min-height: 5in) and (min-width: 5in) {
-    #container {
-        padding: 1in 1em 1in 1em;
-    }
+#container {
+    padding: 1em;
 }
 
-@media only screen and not (min-height: 5in), screen and not (min-width: 5in) {
+@media only screen and (min-height: 5in) and (min-width: 5in) {
     #container {
-        padding: 1em;
+        padding: 1in 1em 1in 1em !important;
     }
 }
 
