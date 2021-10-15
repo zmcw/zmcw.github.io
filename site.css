@@ -109,3 +109,7 @@ img {
     margin-left: auto;
     margin-right: auto;
 }
+
+.bref {
+    white-space: pre;
+}
