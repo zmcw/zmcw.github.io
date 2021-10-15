@@ -109,5 +109,5 @@ img {
 }
 
 .bref {
-    white-space: pre;
+    white-space: nowrap;
 }
