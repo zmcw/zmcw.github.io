@@ -61,7 +61,7 @@
      while (string/= x ":end")
      do (%! "<li>~a</li>~%" x)))
 
-(macro --- (x)
+(macro === (x)
   (declare (ignore x))
   ($! "&#8288;")
   ($ "—")
@@ -163,6 +163,16 @@
             (if (= (length x) 0)
                 "&nbsp;"
                 x)))
+  ($! "</div>"))
+
+(macro blockquote (text)
+  ($! "<div class=\"block-quotation\">")
+  ($! text)
+  ($! "</div>"))
+
+(macro blockcode (text)
+  ($! "<div class=\"block-code\">")
+  ($! text)
   ($! "</div>"))
 
 (macro header (num text)

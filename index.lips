@@ -13,11 +13,22 @@ These are some longer essays I have written.
 {\href{The Surprising Usefulness of Romans 3:19}{romans319-v2}: Commentary on the implications of Romans 3:19.}
 {:end}
 
+\ulist
+{\href{Passages from Isaiah}{isaiah}: A collection of verses from Isaiah about Christ.}
+{:end}
+
 \comment{
+{\href{The Meanings of Hebrews 12:14-17}{hebrews12}: Discussion about what might seem like a difficult passage.}
+}
+
 \header{2}{Blog}
 
-\href{Here is a link to some short-form blog entries}{blog}
-}
+\href{Here is a link to some short-form blog entries about trivial stuff}{blog}
+
+\ulist
+{\href{You can't iterate a linked list backwards without making a copy}{listcopy}}
+{:end}
+
 \header{2}{Listicles}
 
 As much as I hate the word listicle, it's what they are.

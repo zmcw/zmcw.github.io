@@ -1,0 +1,56 @@
+
+\article{article}{You can't iterate a linked list backwards without making a copy}
+
+11/19/2023
+
+I am writing a compiler for a C-like language with Lisp syntax called ℝ³ (its
+metaprogramming facilities add "another dimension" to ℂ). In the implementation,
+I have a list of parsers for forms, and these parsers are each tried one after
+the other. If any parser can parse a form, the process halts and returns the
+result of that parser.
+
+I add parsers to the head of the list, but I want them to be attempted in the
+order they appear in the source code (like a MATCH expression, spread out over
+multiple sites of definition), which means iterating the list backwards.
+
+I asked ChatGPT 3.5 what the idiomatic way to do this in Common Lisp is, and it
+gave me this in response:
+
+\blockquote{In Common Lisp, you can iterate over a list backwards without making
+a copy by using the REVERSE function in combination with a loop. The REVERSE
+function returns a reversed copy of a list, but you can use it in a way that
+doesn't involve creating a separate copy. Here's an example:
+
+\blockcode{
+(defun iterate-backwards (lst)
+  (loop for element in (reverse lst)
+        do (print element)))
+
+;; Example usage:
+(iterate-backwards '(1 2 3 4 5))
+}
+
+In this example, REVERSE is used within the loop, but it doesn't create a
+separate copy of the list. It just reverses the order of traversal within the
+loop.}
+
+Okay, this seems like a pretty immediate contradiction. I thought that by "you
+can use it in a way that doesn't involve creating a separate copy" it might be
+saying that REVERSE is a keyword that LOOP recognizes and transparently iterates
+backwards by recurring to the end of the list and invoking the body starting
+from the end. But after checking, nope, ChatGPT is just plain wrong.
+
+But without knowing, I gave it an impossible task. Recurring to the end of the
+list and invoking code on the elements in reverse order \i{does} create a copy;
+but the copy is hidden in the task's call stack. If you look at the call stack
+in a debugger, you'll literally see each pointer in the list, preserved to allow
+the next call in the chain to run without clobbering it.
+
+This reminds me of a comment that my friend Stuart Olsen made to me over lunch,
+way back during my undergraduate degree. He remarked that many people think that
+the Quicksort algorithm requires constant space; but this is incorrect. It
+requries log₂(n) space, which manifests in the stack frame allocations for the
+recursive calls.
+
+So there you have it. ChatGPT may have been wrong, but it wasn't as wrong as I
+thought it was initially. False, after all, implies anything.
