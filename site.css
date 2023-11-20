@@ -46,6 +46,19 @@ body {
     padding-bottom: .2em;
 }
 
+.block-quotation {
+    margin-left: .5em;
+    padding-left: .5em;
+    padding-right: 1em;
+    border-left: 1px solid lightgray;
+}
+
+.block-code {
+    padding: 1em;
+    white-space: pre;
+    font-family: monospace;
+}
+
 .quote-attrib {
     text-align: right;
 }
